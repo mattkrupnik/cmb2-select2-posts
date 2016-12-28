@@ -17,9 +17,9 @@
 				//console.log(term.term);
 				
 				return {
-				  action	  : 'results',
+				  action      : 'results',
 				  list_search : term.term,
-				  post_type	  : post_type
+				  post_type   : post_type
 				};
 			  },
 			  
