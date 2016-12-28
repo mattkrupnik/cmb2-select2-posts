@@ -5,6 +5,7 @@
  * Description: Enable to select post by Select2
  * Version:     1.1.2
  * Author:      Matt Krupnik
+ * Author URI:  http://mattkrupnik.com
  * License:     GPLv2+
  */
 
