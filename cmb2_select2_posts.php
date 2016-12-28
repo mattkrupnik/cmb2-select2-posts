@@ -47,7 +47,7 @@ class OWN_Select2_Posts {
 		 
 		$post_query = new WP_Query(
 			array(
-			  'post_type' => $post_type,
+			  'post_type'   => $post_type,
 			  'post_status' => 'publish',
 			)
 		);
@@ -61,7 +61,7 @@ class OWN_Select2_Posts {
 		foreach ( $post_query->posts as $post ) {
 
 			$results[] = array(
-				'id' => $post->ID,
+				'id'   => $post->ID,
 				'text' => $post->post_title
 			);
 		}
