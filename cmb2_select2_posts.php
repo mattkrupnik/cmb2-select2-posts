@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: CMB2 Select2 Posts
- * Plugin URI:  mattkrupnik.com
+ * Plugin URI:  https://github.com/mattkrupnik/cmb2-select2-posts
  * Description: Enable to select post by Select2
  * Version:     1.1.2
  * Author:      Matt Krupnik
