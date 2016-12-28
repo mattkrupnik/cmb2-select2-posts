@@ -1,4 +1,4 @@
-# CMB Field Type: Select2 Posts
+# CMB2 Field Type: Select2 Posts
 
 ## Desc
 Enable to select post by Select2
