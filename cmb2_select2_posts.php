@@ -41,8 +41,8 @@ class OWN_Select2_Posts {
 		$post_type = $_REQUEST['post_type'];
 
 		add_filter('posts_where', function( $where ) use ($search) {
-				$where .= (" AND post_title LIKE '%" . $search . "%'");
-				return $where;
+			$where .= (" AND post_title LIKE '%" . $search . "%'");
+			return $where;
 		});
 		 
 		$post_query = new WP_Query(
