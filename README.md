@@ -16,7 +16,7 @@ You can install select2 posts field as a Wordpress plugin
 ```php
 array(
   'name'        => 'Select',
-  'desc'        => 'Set your value',
+  'placeholder' => 'Set your value',
   'id'          => $prefix . 'select2_posts',
   'type'        => 'own_select2_posts',
   'post_type'   => 'post',
