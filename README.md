@@ -1,1 +1,31 @@
-# cmb2-select2-posts
+# CMB Field Type: Select2 Posts
+
+## Desc
+Enable to select post by Select2
+
+##Install
+You can install select2 posts field as a Wordpress plugin
+
+1. Download plugin
+2. Place in `wp-content/plugins` directory
+3. Active in Wordpress plugin section
+
+## Use
+`own_select2_posts` as a field type.
+
+```php
+array(
+  'name'        => 'Select',
+  'desc'        => 'Set your value',
+  'id'          => $prefix . 'select2_posts',
+  'type'        => 'own_select2_posts',
+  'post_type'   => 'post',
+  'width'       => '300px',
+)
+```
+
+## To-Do
+
+* Add support for repeatable group.
+* Add multiple selections.
+* Add multiple post types.
